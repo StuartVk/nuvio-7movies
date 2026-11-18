@@ -1,0 +1,19 @@
+{
+  "name": "7Movies",
+  "author": "local",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "7movies",
+      "name": "7Movies",
+      "description": "Movies and TV via 7movies.ac (BigBang CDN HLS, up to 4K, multi-audio). No cookie or setup needed.",
+      "version": "1.0.0",
+      "author": "local",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/7movies.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["en"]
+    }
+  ]
+}
