@@ -1,0 +1,12 @@
+{
+  "name": "7movies-stremio-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stremio-compatible 7Movies stream addon",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node addon/server.js"
+  }
+}
